@@ -8,6 +8,6 @@ RUN locale-gen en_US.UTF-8
 ENV LANG       en_US.UTF-8
 ENV LC_ALL     en_US.UTF-8
 
-COPY ["runit.sh", "/runnit.sh"]
+COPY ["runit.sh", "/runit.sh"]
 
 CMD ["/runit.sh"]
